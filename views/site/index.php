@@ -7,7 +7,7 @@ $this->title = 'LESO - LOG';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Welcome Fuad!</h1>
+        <h1>Welcome !</h1>
 
     </div>
 
@@ -17,7 +17,7 @@ $this->title = 'LESO - LOG';
             <div class="col-lg-4">
                 <h2>ASIAEBUY</h2>
 
-                <p>It will show all module ,menu and sub menu about asiaebuy, this for user and programmer to log information incase have new feature to be add / update or any bug to fix it & etc.</p>
+                <p>It will show all module ,menu and sub menu about asiaebuy, this for user or programmer to log information incase have new feature to be add / update or any bug to fix it & etc.</p>
             </div>
 
         </div>
