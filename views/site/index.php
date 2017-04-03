@@ -7,7 +7,7 @@ $this->title = 'LESO - LOG';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Welcome !</h1>
+        <h1>Test !</h1>
 
     </div>
 

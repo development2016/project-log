@@ -2572,3 +2572,161 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1490952507.221
     'REQUEST_TIME' => 1490952507
 ]
+2017-04-03 10:42:55 [::1][-][j5fbk0ilgegebd05p16e20urs4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#2 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('asiaebuy-histor...', Array)
+#3 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\xampp\htdocs\project-log\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2017-04-03 10:42:54 [::1][-][j5fbk0ilgegebd05p16e20urs4][info][application] $_GET = [
+    'r' => 'asiaebuy-history/create'
+    'menu_id' => '11'
+]
+
+$_POST = [
+    '_csrf' => 'bldFdC1PMlMXMSpEXCBLKxYRLUxFHGA.G2MOHGoBan5XYiIYVD19IA=='
+    'AsiaebuyHistory' => [
+        'note' => 'cancel Purchase Requisition still not work'
+        'remark' => ''
+        'status' => 'Error'
+        'type_of_buying' => 'Both'
+        'url' => 'http://localhost/ebuy/web/source/guide-purchase-requisition?project=58e1b1cd8726e31ebc007d35&seller=razi%40seller1001'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j5fbk0ilgegebd05p16e20urs4'
+    '_identity' => 'cf36af4b30d3346b24c49c88410965301969db056f343d65791a698bb59b3de1a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[34,\"\",2592000]\";}'
+    '_csrf' => '111d1031df9b599cd627166971c83789c3e33792631b0c2640737c64be926ab4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JHu0DddsmueD9lGu_cxgJGiLdUabHyg4\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ebuy/web/'
+    '__id' => 34
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '406'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/project-log/web/index.php?r=asiaebuy-history%2Fcreate&menu_id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j5fbk0ilgegebd05p16e20urs4; _identity=cf36af4b30d3346b24c49c88410965301969db056f343d65791a698bb59b3de1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B34%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=111d1031df9b599cd627166971c83789c3e33792631b0c2640737c64be926ab4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JHu0DddsmueD9lGu_cxgJGiLdUabHyg4%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\fuad\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\fuad\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm;C:\\Program Files\\MongoDB\\Server\\3.4\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/project-log/web/index.php'
+    'REMOTE_PORT' => '49467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=asiaebuy-history%2Fcreate&menu_id=11'
+    'REQUEST_URI' => '/project-log/web/index.php?r=asiaebuy-history%2Fcreate&menu_id=11'
+    'SCRIPT_NAME' => '/project-log/web/index.php'
+    'PHP_SELF' => '/project-log/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491187374.915
+    'REQUEST_TIME' => 1491187374
+]
+2017-04-03 10:56:34 [::1][-][j5fbk0ilgegebd05p16e20urs4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "asiaebuy-module/index".' in C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('asiaebuy-module...', Array)
+#1 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\project-log\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\project-log\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\project-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-03 10:56:34 [::1][-][j5fbk0ilgegebd05p16e20urs4][info][application] $_GET = [
+    'r' => 'asiaebuy-module/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j5fbk0ilgegebd05p16e20urs4'
+    '_identity' => 'cf36af4b30d3346b24c49c88410965301969db056f343d65791a698bb59b3de1a:2:{i:0;s:9:\"_identity\";i:1;s:15:\"[34,\"\",2592000]\";}'
+    '_csrf' => 'e4779805037188e20242097c80b13aa1b94e4bd43d0352d5d1ce16115ecda688a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wOwjpvyWcT5M4xNZumsp6DTuDMxlp2su\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ebuy/web/'
+    '__id' => 34
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/project-log/web/index.php?r=asiaebuy-menu%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j5fbk0ilgegebd05p16e20urs4; _identity=cf36af4b30d3346b24c49c88410965301969db056f343d65791a698bb59b3de1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B34%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=e4779805037188e20242097c80b13aa1b94e4bd43d0352d5d1ce16115ecda688a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wOwjpvyWcT5M4xNZumsp6DTuDMxlp2su%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Users\\fuad\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\fuad\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm;C:\\Program Files\\MongoDB\\Server\\3.4\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/project-log/web/index.php'
+    'REMOTE_PORT' => '49810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=asiaebuy-module%2Findex'
+    'REQUEST_URI' => '/project-log/web/index.php?r=asiaebuy-module%2Findex'
+    'SCRIPT_NAME' => '/project-log/web/index.php'
+    'PHP_SELF' => '/project-log/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491188194.701
+    'REQUEST_TIME' => 1491188194
+]

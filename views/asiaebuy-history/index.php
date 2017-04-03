@@ -25,7 +25,24 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-            'status',
+            [
+                'label' => 'Status',
+                'attribute' => 'status',
+                'format'=>'raw',
+                'value'=>function ($data) {
+                    if ($data->status == 'Complete') {
+                        return '<span style="color:green;"><b>'.$data->status.'</b></span>';
+                    } elseif ($data->status == 'Bug') {
+                        return '<span style="color:orange;"><b>'.$data->status.'</b></span>';
+                    } elseif ($data->status == 'Error') {
+                        return '<span style="color:red;"><b>'.$data->status.'</b></span>';
+                    } elseif ($data->status == 'Cosmetic') {
+                        return '<span style="color:pink;"><b>'.$data->status.'</b></span>';
+                    } elseif ($data->status == 'Pending') {
+                        return '<span style="color:blue;"><b>'.$data->status.'</b></span>';
+                    }
+                }
+            ],
             'type_of_buying',
             'note',
             'url:url',
